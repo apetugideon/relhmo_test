@@ -1,0 +1,4 @@
+To reduce the complexity from O(n2) to O(n).
+* The "groupBy('user_id')" should be removed from the loop, possibly be resolved before the looping
+* The "GlobalVariable::getById" can also be removed and made into another method
+
